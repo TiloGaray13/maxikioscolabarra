@@ -1,0 +1,193 @@
+/* IMPORTAMOS FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krub:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.hero   {
+    height: 40vh;
+}
+
+.header-container {
+    background-color: #FCF944;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    padding-top: 0;
+    position: relative;
+    right: 3.6rem;
+}
+h4 {
+    color:#060016;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    align-self: center;
+    padding-right: 3rem;
+    margin-bottom: 0;
+    text-decoration: solid;
+}
+.nombre {
+    margin-left: 2rem;
+}
+
+.header-rigth   {
+    display: flex;
+    flex-direction: row;
+}
+.nav__rigth{
+    height: 100px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-right: 1rem;
+}
+.nav__li{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #060016;
+    font-family: 'Krub', sans-serif;
+}
+.nav__carrito{
+    width: 30px;
+    height: 40px;
+    align-self: center;
+}
+
+.hero-main  {
+    display: flex;
+}
+
+.nav__catalogo  {
+    width: 100%;
+}
+
+form .nav__buscar, label {
+    font-family: 'Krub', sans-serif;
+    color: #060016;
+}
+
+.nav__catalogo {
+    height: 25vh;
+    background-color: #e9e770;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu__catalogo {
+    display: flex;
+    list-style: none;
+    font-family: 'Bebas Neue', sans-serif;
+    gap: 1rem;
+}
+.menu__catalogo a {
+    text-decoration: none;
+    color: #060016;
+    font-size: 1.3rem;
+
+}
+
+label   {
+    color: #060016;
+}
+
+/* MEDIA-QUERI-CELULAR */
+
+@media screen and (max-width: 480px) {
+    
+    .logo{
+        width: 70px;
+        height: 70px;
+        position:inherit;
+    }
+}
+
+/* MEDIA-QUERI-TABLET */
+
+@media screen and (max-width: 780px) {
+    .titulo{
+        font-size: 0;
+    }
+    .logo{
+        position: initial;
+    }
+    }
+
+
+/* MAIN CARRITO */
+
+.main-carrito {
+    height: 78vh;
+    background-color: #060016;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-carrito {
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    align-self: flex-start;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.section-carrito {
+    color: aliceblue;
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    padding: 11rem;
+}
+.section-carrito p{
+    color: #e9e770;
+    padding: 1rem;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #807F53;
+    font-family: 'Krub', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__redes {
+    width: 100px;
+    height: 80px;
+}
+.footer__lista1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 3rem;
+}
+
+.footer__lista1 a{
+    color: #060016;
+}
+.footer__lista2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border-top: 2px solid black;
+}
+
