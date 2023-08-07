@@ -12,12 +12,12 @@
 
 <!-- HEADER -->
 
-<body style="background-color: #060016;">
-    <header class="header-container .d-none .d-sm-block .d-sm-none .d-md-block" style="height: 12vh;">
-        <div class="nombre">
-            <h4 class="titulo">Maxikiosco La Barra</h4>
+<body class="body">
+    <header class="header-container .d-none .d-sm-block .d-sm-none .d-md-block" style="height: 13vh;">
+        <div class="nombre mx-2">
+            <h4 class="titulo fw-bold">Maxikiosco La Barra</h4>
         </div>
-        
+
         <div class="logo">
             <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
         </div>
@@ -36,20 +36,20 @@
                   <a class="nav-link active" aria-current="page" style="color: #dee2e6;" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: #dee2e6;" href="#">Sobre Nosotros</a>
+                  <a class="nav-link" style="color: #dee2e6;" href="./Pages/sobrenosotros.html">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #dee2e6;">
                     Productos
                   </a>
                   <ul class="dropdown-menu" style="border: inset; background-color: #060016;border-color: #fcf944; --bs-dropdown-link-hover-bg: #b7b548;">
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Chocolates</a></li>
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Bebidas</a></li>
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Golosinas</a></li>
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Box</a></li>
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Peluches</a></li>
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Vasos</a></li>
-                    <li><a class="dropdown-item" style="color: #dee2e6;" href="#">Termos</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Chocolates</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Bebidas</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Golosinas</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Box</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Peluches</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Vasos</a></li>
+                    <li><a class="dropdown-item" style="color: #dee2e6;" href="./Pages/catalogo.html">Termos</a></li>
                     <li>
                       <hr class="dropdown-divider" style="background-color: #dee2e6;">
                     </li>
@@ -59,7 +59,7 @@
               </ul>
               <form class="d-flex mt-3" role="Buscar">
                 <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                <button class="btn btn-outline-success" style="background-color:#060016; border-color:#fcf944; --bs-btn-color: #dee2e6;--bs-btn-border-color: #fcf944;" type="submit">Buscar</button>
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
             </div>
           </div>
@@ -68,16 +68,16 @@
     </header>
 
     <!-- MAIN CAROUSEL -->
-   
+
     <main class="container-fluid">
       <div id="carouselExampleIndicators" class="carousel slide">
-        <h2 class="container" style="font-size: 2rem; color:#dee2e6; font-family: 'Bebas Neue'; text-align: center; text-decoration: solid; padding-top: 1rem;">OFERTAS</h2>
+        <h2 class="container text-center fs-1 pt-1 fw-bold">OFERTAS</h2>
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner w-100">
           <div class="carousel-item active">
             <img src="./Img/milka.500.png" class="d-block w-100" alt="...">
           </div>
@@ -101,42 +101,30 @@
 
     <!-- TARJETITAS -->
 
-    <h2 style="background-color: #060016; text-align: center; color: #dee2e6; font-family: 'Bebas Neue', sans-serif; font-size: 2rem; padding-top: 1rem;">CATALOGO DE PRODUCTOS</h2>
     <section class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-md-4">
-                <div class="card h-100" style="background-color: #878649;">
-                    <img src="./Img/galletas.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: #060016;">Chocolate Milka</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary" style="--bs-btn-color: #060016;--bs-btn-bg: #fcf944;--bs-btn-border-color: #fcf944;--bs-btn-hover-color: #f8f9fa;--bs-btn-hover-bg: #060016;--bs-btn-hover-border-color: #fcf944;">Al carrito</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100" style="background-color: #878649;">
-                    <img src="./Img/gomitas.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: #060016;">Gomitas</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary" style="--bs-btn-color: #060016;--bs-btn-bg: #fcf944;--bs-btn-border-color: #060016;--bs-btn-hover-bg: #060016;--bs-btn-hover-border-color: #fcf944">Al carrito</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100" style="background-color: #878649;">
-                    <img src="./Img/vodka.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: #060016;">Bebidas</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary" style="--bs-btn-color: #060016;--bs-btn-bg: #fcf944;--bs-btn-border-color: #060016;--bs-btn-hover-bg: #060016;--bs-btn-hover-border-color: #fcf944">Al carrito</a>
-                    </div>
-                  </div>
-            </div>
+      <h2 class="container text-center fs-1 pt-1 fw-bold">Nuestros Productos</h2>
+      <div class="row p-4">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img class="w-100" src="./Img/balde.jpeg" alt="Box">
+          <h3>Box</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates deleniti similique earum voluptatem doloribus? Asperiores modi doloremque expedita harum iure!</p>
+            <button class="btn">+ Info</button>
         </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img class="w-100" src="./Img/gomitas.jpeg" alt="Gomitas">
+          <h3>Gomitas</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates deleniti similique earum voluptatem doloribus? Asperiores modi doloremque expedita harum iure!</p>
+            <button class="btn">+ Info</button>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img class="w-100" src="./Img/vodka.jpeg" alt="Bebidas">
+          <h3>Bebidas</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates deleniti similique earum voluptatem doloribus? Asperiores modi doloremque expedita harum iure!</p>
+            <button class="btn">+ Info</button>
+        </div>
+      </div>
     </section>
-
+  
     <!-- FOOTER -->
 
 
@@ -163,6 +151,7 @@
         </div>
         
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
