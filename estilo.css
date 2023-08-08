@@ -71,15 +71,10 @@ h5{
     --bs-btn-hover-color: #f8f9fa;
     --bs-btn-hover-bg: #060016;
     --bs-btn-hover-border-color: #fcf944;
-    box-shadow: 2px 2px 10px rgba(0 0 0 0.5);
 }
 .btn-outline-succes {
     background-color:#060016; border-color:#fcf944; --bs-btn-color: #dee2e6;--bs-btn-border-color: #fcf944;
 }
-
-/* CARTITAS */
-
-
 
     /* MAIN-SOBRENOSOTROS */
 
@@ -158,21 +153,9 @@ h5{
 
 /* MAIN CARRITO */
 
-.main-carrito {
-    height: 78vh;
-    background-color: #060016;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .div-carrito {
     color: aliceblue;
     font-family: 'Bebas Neue', sans-serif;
-    align-self: flex-start;
-    padding-top: 3rem;
-    padding-left: 3rem;
 }
 
 .section-carrito {
