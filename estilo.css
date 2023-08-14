@@ -62,6 +62,62 @@ h5{
     --bs-gutter-x: 0rem;
 }
 
+/* TARJETITAS */
+
+.tarjetitas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.tarjetitas-grid    {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tarjetitas-grid > div{
+    height: 7rem;
+    background-size: cover;
+    color: #dee2e6;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    -webkit-text-stroke: thin;
+    text-align:initial;
+    padding-left: 1rem;
+    padding-bottom: 9rem;
+}
+
+.tarjetitas-grid > div:nth-child(1) {
+    background-image: url(./Img/arcor.500.png);
+}
+.tarjetitas-grid > div:nth-child(2) {
+    background-image: url(./Img/bebidas.cel.png);
+}
+.tarjetitas-grid > div:nth-child(3) {
+    background-image: url(./Img/gmitas.cel.png);
+}
+.tarjetitas-grid > div:nth-child(4) {
+    background-image: url(./Img/box.cel.png);
+}
+.tarjetitas-grid > div:nth-child(5) {
+    background-image: url(./Img/oso.cel.png);
+}
+.tarjetitas-grid > div:nth-child(6) {
+    background-image: url(./Img/taza.cel.png);
+}
+.tarjetitas-grid > div:nth-child(7) {
+    background-image: url(./Img/gmitas.cel.png);
+}
+
+.tarjetitas h2{
+    text-align: center;
+    -webkit-text-stroke: thin;
+    font-size: 1.75rem;
+    padding-top: 1rem;
+}
+
 /* BOTON */
 
 .btn    {
@@ -71,6 +127,7 @@ h5{
     --bs-btn-hover-color: #f8f9fa;
     --bs-btn-hover-bg: #060016;
     --bs-btn-hover-border-color: #fcf944;
+    box-shadow: 2px 2px 10px rgba(0 0 0m 0.5);
 }
 .btn-outline-succes {
     background-color:#060016; border-color:#fcf944; --bs-btn-color: #dee2e6;--bs-btn-border-color: #fcf944;
@@ -128,15 +185,26 @@ h5{
     font-size: 1.3rem;
 
 }
+img.img.catalogo__container{
+    width: 20px;
+    height: 20px;
+}
+img.img.catalogo{
+    width: 270px;
+    border-radius: 1rem;
+}
 
 /* MEDIA-QUERI-CELULAR */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     .logo{
         width: 70px;
         height: 70px;
-        position:inherit;
     }
+    img     {
+        width: 160px;
+    }
+    
 }
 
 /* MEDIA-QUERI-TABLET */
@@ -147,6 +215,9 @@ h5{
     }
     .logo{
         position: initial;
+    }
+    .parrafo    {
+        font-size: 0;
     }
 }
 
@@ -173,7 +244,7 @@ h5{
 /* FOOTER */
 
 .footer {
-    background-color: #807F53;
+    background-color: #F7EE7B;
     font-family: 'Krub', sans-serif;
     width: 100%;
     display: flex;
