@@ -52,15 +52,22 @@ h3{
    font-family: 'Bebas Neue';
    color: #dee2e6;
 }
-
-.dropdown-item{
-    color: #dee2e6;
+h4 {
+    color:#060016;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    align-self: center;
+    padding-right: 3rem;
+    margin-bottom: 0;
+    text-decoration: solid;
+}
+h5{
+    font-family: 'Bebas Neue';
+    color:#060016;
 }
 
-ul.dropdown-menu{
-    background-color:#060016;
-    border-color: #FCF944;
-}
 /* CAROUSEL */
 
 .container-fluid    {
@@ -69,15 +76,10 @@ ul.dropdown-menu{
 
 /* TARJETITAS */
 
-a{
-    text-decoration: none;
-    color: #dee2e6;
-    font-family: 'Bebas Neue';
-}
-
 .tarjetitas {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
     padding-bottom: 1rem;
 }
 
@@ -100,25 +102,32 @@ a{
 }
 
 .tarjetitas-grid > div:nth-child(1) {
-    background-image: url(./Img/arcor.500.png);
+    background-image: url(../img/arcor.500.png);
 }
 .tarjetitas-grid > div:nth-child(2) {
-    background-image: url(./Img/bebidas.cel.png);
+    background-image: url(../img/bebidas.cel.png);
 }
 .tarjetitas-grid > div:nth-child(3) {
-    background-image: url(./Img/gmitas.cel.png);
+    background-image: url(../Img/gmitas.cel.png);
 }
 .tarjetitas-grid > div:nth-child(4) {
-    background-image: url(./Img/box.cel.png);
+    background-image: url(../Img/box.cel.png);
 }
 .tarjetitas-grid > div:nth-child(5) {
-    background-image: url(./Img/oso.cel.png);
+    background-image: url(../Img/oso.cel.png);
 }
 .tarjetitas-grid > div:nth-child(6) {
-    background-image: url(./Img/taza.cel.png);
+    background-image: url(../Img/taza.cel.png);
 }
 .tarjetitas-grid > div:nth-child(7) {
-    background-image: url(./Img/gmitas.cel.png);
+    background-image: url(../Img/gmitas.cel.png);
+}
+
+.tarjetitas h2{
+    text-align: center;
+    -webkit-text-stroke: thin;
+    font-size: 1.75rem;
+    padding-top: 1rem;
 }
 
 /* BOTON */
@@ -130,20 +139,10 @@ a{
     --bs-btn-hover-color: #f8f9fa;
     --bs-btn-hover-bg: #060016;
     --bs-btn-hover-border-color: #fcf944;
+    box-shadow: 2px 2px 10px rgba(0 0 0m 0.5);
 }
 .btn-outline-succes {
-    background-color:#060016;
-    border-color:#fcf944;
-    --bs-btn-color: #dee2e6;
-    --bs-btn-border-color: #fcf944;
-}
-.btn-close  {
-    background-color:#FCF944;
-    border-color:#060016;
-}
-.btn:hover  {
-    background-color:#060016;
-    color: #dee2e6;
+    background-color:#060016; border-color:#fcf944; --bs-btn-color: #dee2e6;--bs-btn-border-color: #fcf944;
 }
 
     /* MAIN-SOBRENOSOTROS */
@@ -155,16 +154,13 @@ a{
 
 /* MAIN CATALOGO */
 
-.rounded {
-    height: 250px;
-}
-
 .catalogo__container {
     display: flex;
     flex-direction: column;
+    color: #dee2e6;
 }
 .catalogo__h2 {
-    color: azure;
+    color: #dee2e6;
 }
 .catalogo__container2 {
     display: flex;
@@ -217,6 +213,9 @@ img.img.catalogo{
     .logo{
         width: 70px;
         height: 70px;
+    }
+    img     {
+        width: 160px;
     }
 }
 
