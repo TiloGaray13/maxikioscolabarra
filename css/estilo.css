@@ -15,9 +15,16 @@
 
 /* HEADER */
 
-
+nav{
+    background-color: #FCF944;
+}
+.offcanvas  {
+    background-color: #060016;
+    padding-right: 1rem;
+}
 .header-container {
     background-color: #FCF944;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,6 +68,12 @@ ul.dropdown-menu{
     background-color:#060016;
     border-color: #FCF944;
 }
+a{
+    color: #dee2e6;
+}
+hr{
+    background-color: #dee2e6;
+}
 /* CAROUSEL */
 
 .container-fluid    {
@@ -100,25 +113,25 @@ a{
 }
 
 .tarjetitas-grid > div:nth-child(1) {
-    background-image: url(../Img/arcor.500.png);
+    background-image: url(../img/arcor.500.png);
 }
 .tarjetitas-grid > div:nth-child(2) {
-    background-image: url(../Img/bebidas.cel.png);
+    background-image: url(../img/bebidas.cel.png);
 }
 .tarjetitas-grid > div:nth-child(3) {
-    background-image: url(../Img/gmitas.cel.png);
+    background-image: url(../img/gmitas.cel.png);
 }
 .tarjetitas-grid > div:nth-child(4) {
-    background-image: url(../Img/box.cel.png);
+    background-image: url(../img/box.cel.png);
 }
 .tarjetitas-grid > div:nth-child(5) {
-    background-image: url(../Img/oso.cel.png);
+    background-image: url(../img/oso.cel.png);
 }
 .tarjetitas-grid > div:nth-child(6) {
-    background-image: url(../Img/taza.cel.png);
+    background-image: url(../img/taza.cel.png);
 }
 .tarjetitas-grid > div:nth-child(7) {
-    background-image: url(../Img/gmitas.cel.png);
+    background-image: url(../img/gmitas.cel.png);
 }
 
 /* BOTON */
@@ -209,6 +222,13 @@ img.img.catalogo__container{
 img.img.catalogo{
     width: 270px;
     border-radius: 1rem;
+}
+
+/* SUBSCRIBETE */
+
+label{
+    color: #dee2e6;
+    padding-top: 1rem;
 }
 
 /* MEDIA-QUERI-CELULAR */
