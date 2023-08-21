@@ -1,0 +1,95 @@
+// CAROUSEL
+
+.body   {
+    background-color: $colorBody;
+}
+
+
+.container-fluid    {
+    --bs-gutter-x: 0rem;
+
+    h2{
+        color:#dee2e6;
+        font-family: 'Bebas Neue';
+    }
+}
+
+// MAIN-SOBRENOSOTROS
+
+p{
+    color: #dee2e6;
+    font-family: krub;
+}
+
+// MAIN-CATALOGO
+
+.catalogo__container {
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        color:#dee2e6;
+        font-family: 'Bebas Neue';
+
+        .catalogo__container2 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap ;
+            gap: 10rem;
+            justify-content: center;
+            margin: 3rem 0 3rem 0;
+            .catalogo__container3 {
+                display: flex;
+                flex-direction: column;
+
+                img.img.catalogo__container{
+                    width: 20px;
+                    height: 20px;
+                }
+                img.img.catalogo{
+                    width: 270px;
+                    border-radius: 1rem;
+                }
+                .rounded {
+                    height: 250px;
+                }
+
+                span{
+                    color: withe;
+                }
+            }
+        }
+    }
+}
+
+// MAIN-SUBSCRIBETE
+
+label{
+    color: #dee2e6;
+    padding-top: 1rem;
+}
+
+// MAIN-CARRITO
+
+.div-carrito {
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.section-carrito {
+    color: aliceblue;
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    padding: 11rem;
+    .section-carrito p{
+        color: #e9e770;
+        padding: 1rem;
+    }
+    .btn    {
+        --bs-btn-color: #060016;
+        --bs-btn-bg: #fcf944;
+        --bs-btn-border-color: #060016;
+        --bs-btn-hover-color: #f8f9fa;
+        --bs-btn-hover-bg: #060016;
+        --bs-btn-hover-border-color: #fcf944;
+    }
+}

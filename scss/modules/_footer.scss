@@ -1,0 +1,28 @@
+.footer {
+    background-color: #F7EE7B;
+    font-family: 'Krub', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .footer__lista1 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        margin: 3rem;
+        .footer__lista1 a{
+            color: #060016;
+        }
+    }
+    .footer__redes {
+        width: 100px;
+        height: 80px;
+    }
+    .footer__lista2 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        border-top: 2px solid black;
+    }
+}
