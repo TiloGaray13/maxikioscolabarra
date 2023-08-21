@@ -1,0 +1,22 @@
+.btn    {
+    --bs-btn-color: #060016;
+    --bs-btn-bg: #fcf944;
+    --bs-btn-border-color: #060016;
+    --bs-btn-hover-color: #f8f9fa;
+    --bs-btn-hover-bg: #060016;
+    --bs-btn-hover-border-color: #fcf944;
+}
+.btn-outline-succes {
+    background-color:#060016;
+    border-color:#fcf944;
+    --bs-btn-color: #dee2e6;
+    --bs-btn-border-color: #fcf944;
+}
+.btn-close  {
+    background-color:#FCF944;
+    border-color:#060016;
+}
+.btn:hover  {
+    background-color:#060016;
+    color: #dee2e6;
+}
