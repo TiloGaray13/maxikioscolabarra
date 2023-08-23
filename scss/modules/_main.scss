@@ -10,7 +10,7 @@
 
     h2{
         color:#dee2e6;
-        font-family: 'Bebas Neue';
+        font-family: $fontBebas;
     }
 }
 
@@ -53,7 +53,7 @@ span{
 
 .nav__catalogo {
     height: 15vh;
-    background-color: #e9e770;
+    background-color: $colorNav;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ span{
 }
 .menu__catalogo a {
     text-decoration: none;
-    color: #060016;
+    color: $colorBody;
     font-size: 1.3rem;
 
 }
@@ -88,18 +88,17 @@ label{
 
 // MAIN-CARRITO
 
-.div-carrito {
-    color: aliceblue;
-    font-family: 'Bebas Neue', sans-serif;
-}
-.section-carrito {
-    color: aliceblue;
-    font-family: 'Krub', sans-serif;
-    text-align: center;
-    padding: 11rem;
-    .section-carrito p{
-        color: #e9e770;
-        padding: 1rem;
+.container-carrito{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .container-texto    {
+        text-align: center;
     }
     .btn    {
         --bs-btn-color: #060016;

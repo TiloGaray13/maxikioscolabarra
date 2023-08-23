@@ -1,12 +1,12 @@
 nav{
-    background-color: #FCF944;
+    background-color: $colorNav;
 }
 .offcanvas  {
-    background-color: #060016;
+    background-color: $colorBody;
     padding-right: 1rem;
 }
 .header-container {
-    background-color: #FCF944;
+    background-color: $colorNav;
     height: 13vh;
     display: flex;
     flex-direction: row;
@@ -23,10 +23,10 @@ nav{
 }
 
 h1{
-    color:#060016;
+    color: $colorBody;
     text-align: left;
     text-transform: uppercase;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: $fontBebas;
     font-size: 2rem;
     align-self: center;
     padding-right: 3rem;
@@ -36,10 +36,10 @@ h1{
 
 h2{
     color:#dee2e6;
-    font-family: 'Bebas Neue';
+    font-family: $fontBebas;
 }
 h3{
-   font-family: 'Bebas Neue';
+   font-family: $fontBebas;
    color: #dee2e6;
 }
 
@@ -48,8 +48,12 @@ h3{
 }
 
 ul.dropdown-menu{
-    background-color:#060016;
-    border-color: #FCF944;
+    background-color:$colorBody;
+    border-color: $colorNav;
+}
+li{
+    gap: 1rem;
+    padding-right: 1rem;
 }
 a{
     color: #dee2e6;
